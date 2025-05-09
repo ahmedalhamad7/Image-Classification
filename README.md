@@ -44,4 +44,8 @@ The enhanced model significantly outperforms the baseline, demonstrating the imp
 3. Install the dependencies using the provided requirements file:
    ```bash
    pip install -r requirements.txt
+4. Open and run the notebook cell by cell in your Jupyter environment.
+
+
+
 
