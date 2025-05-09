@@ -23,6 +23,8 @@ The models were trained and tested using TensorFlow and Keras with clear separat
 
 The dataset consists of:
 
+This project uses the [Fashion Product Images (Small)](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small) dataset from Kaggle.
+
 - `styles.csv`: Metadata and label information for each image
 - `images/`: A folder of fashion item images
 
@@ -36,16 +38,3 @@ Only three target classes were used: **Casual**, **Formal**, and **Smart Casual*
 | Enhanced CNN   | ~96%                | ~96%           |
 
 The enhanced model significantly outperforms the baseline, demonstrating the impact of regularization and data augmentation techniques.
-
-### How to Run the Project
-
-1. Clone the repository.
-2. Place `styles.csv` and the `images/` folder in the root directory of the project.
-3. Install the dependencies using the provided requirements file:
-   ```bash
-   pip install -r requirements.txt
-4. Open and run the notebook cell by cell in your Jupyter environment.
-
-
-
-
